@@ -11,12 +11,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      <main className="max-w-4xl mx-auto px-6 sm:px-8">
+      <main className="max-w-6xl mx-auto px-6 sm:px-8">
         <Hero />
         <About />
         <Experience />
         <Projects />
-        <Education />
         <Contact />
       </main>
       <Footer />

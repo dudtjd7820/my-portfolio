@@ -15,10 +15,9 @@ export default function Navigation() {
   }, []);
 
   const navItems = [
-    { name: "About", href: "#about" },
+    { name: "Skills", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
-    { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -28,7 +27,7 @@ export default function Navigation() {
         isScrolled ? "shadow-md" : ""
       }`}
     >
-      <div className="max-w-4xl mx-auto px-6 sm:px-8 py-5">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 py-5">
         <div className="flex justify-between items-center">
           <a
             href="#"

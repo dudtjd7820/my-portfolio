@@ -3,10 +3,10 @@ import { profile } from "@/data/profile";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 border-t border-gray-200">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Get In Touch</h2>
+    <section id="contact" className="py-16 border-t border-gray-200">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Contact</h2>
 
-      <p className="text-lg text-gray-700 mb-8 max-w-2xl leading-relaxed">
+      <p className="text-base text-gray-700 mb-6 max-w-2xl leading-relaxed">
         새로운 기회나 협업에 관심이 있으시다면 언제든지 연락 주세요.
       </p>
 

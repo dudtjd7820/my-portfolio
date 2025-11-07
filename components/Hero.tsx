@@ -3,26 +3,22 @@ import { profile } from "@/data/profile";
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-24">
-      <div className="mb-12">
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+    <section className="pt-24 pb-16">
+      <div className="mb-8">
+        <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
           {profile.name}
         </h1>
-        <p className="text-2xl md:text-3xl text-gray-700 font-medium mb-4">
+        <p className="text-2xl md:text-3xl text-gray-700 font-medium mb-3">
           {profile.role}
         </p>
-        <p className="text-lg text-gray-600 mb-2">
+        <p className="text-lg text-gray-600">
           6년 2개월 경력 • 풀스택 개발자
         </p>
       </div>
 
-      <div className="mb-12 text-lg text-gray-700 leading-relaxed max-w-2xl">
-        <p className="mb-4">{profile.bio}</p>
-        <p>
-          Spring Boot와 Vue.js를 활용한 물류 시스템 개발부터
-          클린 아키텍처 설계, API 연동까지 폭넓은 경험을 보유하고 있습니다.
-        </p>
-      </div>
+      <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mb-8">
+        {profile.bio}
+      </p>
 
       <div className="flex gap-4">
         <a
