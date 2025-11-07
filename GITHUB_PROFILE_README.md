@@ -13,7 +13,7 @@ const kimYoungSeong = {
   role: "Full Stack Developer",
   experience: "6년 2개월",
   location: "대한민국 🇰🇷",
-  email: "dudtjd7820@naver.com",
+  email: "kim-yeongseong@naver.com",
 
   currentFocus: {
     company: "주식회사 국제종합물류",
@@ -34,7 +34,7 @@ const kimYoungSeong = {
     "풀스택 개발 (Spring Boot + Vue.js)",
     "API 설계 및 연동 (RESTful, EDI)",
   ],
-
+2
   philosophy: "변화에 두려워하지 않는 궁금증 많은 개발자 🚀"
 };
 ```
@@ -68,11 +68,11 @@ const kimYoungSeong = {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dudtjd7820&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=8B5CF6&text_color=E5E7EB)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kim-yeongseong&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=8B5CF6&text_color=E5E7EB)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dudtjd7820&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=E5E7EB)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kim-yeongseong&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=E5E7EB)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dudtjd7820&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=8B5CF6&currStreakLabel=E5E7EB)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kim-yeongseong&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=8B5CF6&currStreakLabel=E5E7EB)
 
 </div>
 
@@ -146,9 +146,9 @@ const kimYoungSeong = {
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dudtjd7820@naver.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dudtjd7820)
-[![Portfolio](https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://dudtjd7820.github.io)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kim-yeongseong@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kim-yeongseong)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kim-yeongseong.github.io)
 
 </div>
 
@@ -158,6 +158,6 @@ const kimYoungSeong = {
 
 ### 💭 "변화에 두려워하지 않는 궁금증 많은 개발자"
 
-![Visitor Count](https://profile-counter.glitch.me/dudtjd7820/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/kim-yeongseong/count.svg)
 
 </div>

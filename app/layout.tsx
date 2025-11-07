@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "물류 시스템",
     "클린 아키텍처",
   ],
-  authors: [{ name: "김영성", url: "https://github.com/dudtjd7820" }],
+  authors: [{ name: "김영성", url: "https://github.com/kim-yeongseong" }],
   creator: "김영성",
   publisher: "김영성",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://dudtjd7820.github.io",
+    url: "https://kim-yeongseong.github.io",
     title: "김영성 | Full Stack Developer Portfolio",
     description:
       "6년 2개월 경력의 풀스택 개발자 김영성의 포트폴리오입니다. Spring Boot, Vue.js, TypeScript를 활용한 물류 시스템 개발 경험을 보유하고 있습니다.",
@@ -70,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <link rel="canonical" href="https://dudtjd7820.github.io" />
+        <link rel="canonical" href="https://kim-yeongseong.github.io" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

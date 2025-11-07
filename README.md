@@ -9,7 +9,7 @@
 
 **6년 2개월 경력의 Full Stack Developer 포트폴리오**
 
-[🌐 Live Demo](#) | [📧 Contact](mailto:dudtjd7820@naver.com) | [💼 LinkedIn](#)
+[🌐 Live Demo](#) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 LinkedIn](#)
 
 </div>
 
@@ -115,7 +115,7 @@ npm >= 10.9.1
 
 1. **저장소 클론**
 ```bash
-git clone https://github.com/dudtjd7820/my-portfolio.git
+git clone https://github.com/kim-yeongseong/my-portfolio.git
 cd my-portfolio
 ```
 
@@ -191,8 +191,8 @@ export const profile: Profile = {
   name: "김영성",
   role: "Full Stack Developer",
   bio: "...",
-  email: "dudtjd7820@naver.com",
-  github: "https://github.com/dudtjd7820",
+  email: "kim-yeongseong@naver.com",
+  github: "https://github.com/kim-yeongseong",
 };
 ```
 
@@ -254,9 +254,9 @@ vercel
 
 **김영성** - Full Stack Developer
 
-- 📧 Email: [dudtjd7820@naver.com](mailto:dudtjd7820@naver.com)
-- 💼 GitHub: [@dudtjd7820](https://github.com/dudtjd7820)
-- 🌐 Portfolio: [https://dudtjd7820.github.io](https://dudtjd7820.github.io)
+- 📧 Email: [kim-yeongseong@naver.com](mailto:kim-yeongseong@naver.com)
+- 💼 GitHub: [@kim-yeongseong](https://github.com/kim-yeongseong)
+- 🌐 Portfolio: [https://kim-yeongseong.github.io](https://kim-yeongseong.github.io)
 
 ---
 
@@ -273,6 +273,6 @@ vercel
 
 **⭐ 이 프로젝트가 도움이 되었다면 Star를 눌러주세요! ⭐**
 
-Made with ❤️ by [김영성](https://github.com/dudtjd7820)
+Made with ❤️ by [김영성](https://github.com/kim-yeongseong)
 
 </div>
