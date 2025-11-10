@@ -52,7 +52,7 @@ export default function Projects() {
                     {project.title}
                   </h3>
                   {project.period && (
-                    <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium mt-1">
+                    <p className="text-xs sm:text-sm text-gray-800 dark:text-gray-200 font-bold mt-1">
                       {project.period}
                     </p>
                   )}
@@ -63,7 +63,7 @@ export default function Projects() {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-800 dark:bg-gray-700 text-white hover:bg-gray-700 dark:hover:bg-gray-600 text-xs font-semibold rounded-lg transition-colors"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-900 dark:bg-gray-700 text-white hover:bg-black dark:hover:bg-gray-600 text-xs font-bold rounded-lg transition-colors shadow-md"
                     >
                       <Github className="w-3.5 h-3.5" />
                       <span className="hidden sm:inline">GitHub</span>
@@ -75,7 +75,7 @@ export default function Projects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 dark:bg-blue-700 text-white hover:bg-blue-700 dark:hover:bg-blue-600 text-xs font-semibold rounded-lg transition-colors"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 dark:bg-blue-700 text-white hover:bg-blue-700 dark:hover:bg-blue-600 text-xs font-bold rounded-lg transition-colors shadow-md"
                     >
                       <ExternalLink className="w-3.5 h-3.5" />
                       <span>Demo</span>
@@ -84,7 +84,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="text-sm text-gray-700 dark:text-gray-300 mb-3 leading-relaxed">
+              <p className="text-sm text-gray-900 dark:text-gray-100 mb-3 leading-relaxed font-semibold">
                 {project.description}
               </p>
 

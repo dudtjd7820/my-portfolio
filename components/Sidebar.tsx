@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Mail, Target, User } from "lucide-react";
+import { Github, Mail, Target, User, Code2 } from "lucide-react";
 import { profile } from "@/data/profile";
 import { primarySkills } from "@/data/skills";
 
@@ -40,26 +40,29 @@ export default function Sidebar() {
           <div className="space-y-1.5">
             <a
               href={`mailto:${profile.email}`}
-              className="flex items-center gap-1.5 text-xs text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors bg-white dark:bg-gray-700 px-2 py-1 rounded-lg"
+              className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-all bg-white dark:bg-gray-700 px-2 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/30 shadow-sm hover:shadow-md cursor-pointer border border-blue-200 dark:border-blue-700"
             >
-              <Mail className="w-3 h-3 flex-shrink-0" />
-              <span className="text-xs break-all">{profile.email}</span>
+              <Mail className="w-3.5 h-3.5 flex-shrink-0" />
+              <span className="text-xs break-all font-bold underline decoration-blue-400 decoration-1 underline-offset-2">{profile.email}</span>
             </a>
             <a
               href={profile.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors bg-white dark:bg-gray-700 px-2 py-1 rounded-lg"
+              className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-all bg-white dark:bg-gray-700 px-2 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/30 shadow-sm hover:shadow-md cursor-pointer border border-blue-200 dark:border-blue-700"
             >
-              <Github className="w-3 h-3" />
-              <span className="text-xs">GitHub Profile</span>
+              <Github className="w-3.5 h-3.5" />
+              <span className="text-xs font-bold underline decoration-blue-400 decoration-1 underline-offset-2">GitHub Profile</span>
             </a>
           </div>
         </div>
 
         {/* Skills - 더보기 없이 한눈에 */}
         <div className="mb-3 pb-3 border-b-2 border-blue-200 dark:border-blue-700">
-          <h3 className="text-base font-bold text-gray-900 dark:text-white mb-2">Tech Stack</h3>
+          <h3 className="text-base font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-1.5">
+            <Code2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+            Tech Stack
+          </h3>
           <div className="space-y-2">
             {primarySkills.map((category) => (
               <div key={category.category}>
@@ -92,7 +95,7 @@ export default function Sidebar() {
               {profile.mindset.map((item, idx) => (
                 <div key={idx} className="flex items-start gap-1 bg-white dark:bg-gray-700 px-2 py-1 rounded-lg">
                   <span className="text-blue-600 dark:text-blue-400 font-bold text-xs mt-0.5">•</span>
-                  <span className="text-xs text-gray-800 dark:text-gray-200 leading-relaxed">{item}</span>
+                  <span className="text-xs text-gray-900 dark:text-gray-100 leading-relaxed font-semibold">{item}</span>
                 </div>
               ))}
             </div>

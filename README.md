@@ -8,7 +8,7 @@
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css)
 
-**6년 2개월 경력의 Full Stack Developer 포트폴리오**
+**6년+ 경력의 Full Stack Developer 포트폴리오**
 
 [🌐 Live Demo](https://kim-yeongseong.vercel.app) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 GitHub](https://github.com/kim-yeongseong)
 
@@ -30,7 +30,7 @@
 
 ## 🎯 프로젝트 소개
 
-개발자 이력서와 포트폴리오를 겸한 웹사이트입니다. 6년 2개월의 개발 경력, 프로젝트 이력, 기술 스택, 학습 기록 등을 시각적으로 표현했습니다.
+개발자 이력서와 포트폴리오를 겸한 웹사이트입니다. 6년+ 개발 경력, 프로젝트 이력, 기술 스택, 학습 기록 등을 시각적으로 표현했습니다.
 
 ### ✨ 특징
 
@@ -48,7 +48,7 @@
 
 ### 1. Hero 섹션
 - 그라데이션 애니메이션 타이틀
-- 경력 강조 (6년 2개월)
+- 경력 강조 (6년+)
 - CTA 버튼 (경력 보기, GitHub, Email, LinkedIn)
 - 배경 그라데이션 효과
 
@@ -155,34 +155,52 @@ npm run lint     # ESLint 실행
 
 ```
 my-portfolio/
-├── app/                    # Next.js App Router
-│   ├── page.tsx           # 메인 페이지
-│   ├── layout.tsx         # 루트 레이아웃
-│   └── globals.css        # 전역 스타일
-├── components/            # React 컴포넌트
-│   ├── Navigation.tsx     # 네비게이션 바
-│   ├── Hero.tsx          # 히어로 섹션
-│   ├── About.tsx         # 소개 섹션
-│   ├── Experience.tsx    # 경력 타임라인
-│   ├── Projects.tsx      # 프로젝트 목록
-│   ├── Studies.tsx       # 학습 기록
-│   ├── EducationSection.tsx  # 교육 이력
-│   ├── Contact.tsx       # 연락처
-│   └── Footer.tsx        # 푸터
-├── data/                 # 데이터 파일
-│   ├── profile.ts        # 프로필 정보
-│   ├── skills.ts         # 기술 스택
-│   ├── projects.ts       # 프로젝트 데이터
-│   ├── studies.ts        # 학습 기록
-│   ├── experience.ts     # 경력 데이터
-│   └── education.ts      # 교육 이력
-├── types/                # TypeScript 타입 정의
-│   └── index.ts          # 공통 타입
-├── public/               # 정적 파일
-├── package.json          # 프로젝트 설정
-├── tsconfig.json         # TypeScript 설정
-├── tailwind.config.ts    # Tailwind 설정
-└── next.config.ts        # Next.js 설정
+├── app/                        # Next.js App Router
+│   ├── page.tsx               # 메인 페이지
+│   ├── layout.tsx             # 루트 레이아웃 (SEO 메타데이터)
+│   ├── globals.css            # 전역 스타일 (Tailwind + Custom)
+│   ├── icon.tsx               # 파비콘 생성 (Edge Runtime)
+│   ├── apple-icon.tsx         # Apple 아이콘
+│   ├── opengraph-image.tsx    # OG 이미지 동적 생성
+│   ├── robots.ts              # robots.txt
+│   ├── sitemap.ts             # sitemap.xml
+│   └── not-found.tsx          # 404 페이지
+├── components/                # React 컴포넌트
+│   ├── Navigation.tsx         # 상단 네비게이션 바
+│   ├── Sidebar.tsx            # 사이드바 (모바일 대응)
+│   ├── Hero.tsx               # 히어로 섹션
+│   ├── About.tsx              # 소개 섹션
+│   ├── TechStack.tsx          # 기술 스택 표시
+│   ├── Experience.tsx         # 경력 타임라인
+│   ├── Projects.tsx           # 프로젝트 목록
+│   ├── ProjectCard.tsx        # 개별 프로젝트 카드
+│   ├── Studies.tsx            # 학습 기록
+│   ├── StudyCard.tsx          # 개별 학습 카드
+│   ├── Education.tsx          # 교육 이력
+│   ├── EducationSection.tsx   # 교육 섹션 래퍼
+│   ├── Contact.tsx            # 연락처
+│   ├── Footer.tsx             # 푸터
+│   ├── ThemeProvider.tsx      # 테마 컨텍스트 제공
+│   └── ThemeToggle.tsx        # 다크모드 토글 버튼
+├── data/                      # 데이터 파일 (수정 가능)
+│   ├── profile.ts             # 프로필 정보
+│   ├── skills.ts              # 기술 스택
+│   ├── projects.ts            # 프로젝트 데이터
+│   ├── studies.ts             # 학습 기록
+│   ├── experience.ts          # 경력 데이터
+│   └── education.ts           # 교육 이력
+├── types/                     # TypeScript 타입 정의
+│   └── index.ts               # 공통 타입
+├── public/                    # 정적 파일
+│   └── favicon.ico            # 기본 파비콘
+├── .gitignore                 # Git 무시 파일
+├── package.json               # 프로젝트 설정
+├── tsconfig.json              # TypeScript 설정
+├── tailwind.config.ts         # Tailwind 설정
+├── postcss.config.mjs         # PostCSS 설정
+├── next.config.ts             # Next.js 설정
+├── vercel.json                # Vercel 배포 설정
+└── README.md                  # 프로젝트 문서
 ```
 
 ---

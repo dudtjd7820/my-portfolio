@@ -167,15 +167,25 @@ body {
   animation: glow 2s ease-in-out infinite;
 }
 
-/* Selection styling */
+/* Selection styling - 드래그 시 보이도록 */
 ::selection {
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-  color: white;
+  background: #3b82f6;
+  color: #ffffff;
 }
 
 ::-moz-selection {
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-  color: white;
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+.dark ::selection {
+  background: #60a5fa;
+  color: #0a0a0a;
+}
+
+.dark ::-moz-selection {
+  background: #60a5fa;
+  color: #0a0a0a;
 }
 
 /* Glass morphism effect */

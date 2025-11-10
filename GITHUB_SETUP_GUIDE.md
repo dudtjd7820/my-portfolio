@@ -6,7 +6,7 @@
 1. GitHub에서 https://github.com/kim-yeongseong/my-portfolio 접속
 2. 우측 상단 ⚙️ (Settings) 버튼 클릭 (Repository 이름 옆)
 3. **About** 섹션에서 다음 입력:
-   - **Description**: `6년 2개월 경력 풀스택 개발자 포트폴리오 | Spring Boot, Vue.js, TypeScript`
+   - **Description**: `6년+ 경력 풀스택 개발자 포트폴리오 | Spring Boot, Vue.js, TypeScript`
    - **Website**: `https://kim-yeongseong.vercel.app`
    - **Topics** (태그):
      - `portfolio`
@@ -43,7 +43,7 @@ GitHub 프로필에 README를 표시하려면 **자신의 username과 동일한 
 
 ## 🚀 About Me
 
-6년 2개월 경력의 풀스택 개발자로, Spring Boot와 Vue.js를 활용한 엔터프라이즈 시스템 개발을 주로 해왔습니다.
+6년+ 경력의 풀스택 개발자로, Spring Boot와 Vue.js를 활용한 엔터프라이즈 시스템 개발을 주로 해왔습니다.
 클린 아키텍처와 최신 웹 기술을 활용하여 확장 가능하고 유지보수가 쉬운 시스템을 설계하고 구축합니다.
 
 - 🔭 현재 **통합 물류 시스템 (To-Be)** 프로젝트 진행 중

@@ -72,25 +72,25 @@ export default function Experience() {
                   </p>
                 </div>
                 <div className="sm:text-right">
-                  <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">
+                  <p className="text-xs sm:text-sm text-gray-800 dark:text-gray-200 font-bold">
                     {exp.period}
                   </p>
                   {exp.current && (
-                    <span className="inline-block mt-1 px-2.5 py-1 bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-400 text-xs font-bold rounded-full">
+                    <span className="inline-block mt-1 px-2.5 py-1 bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 text-xs font-black rounded-full">
                       재직중
                     </span>
                   )}
                 </div>
               </div>
 
-              <p className="text-sm text-gray-700 dark:text-gray-300 mb-3 leading-relaxed font-medium">
+              <p className="text-sm sm:text-base text-gray-900 dark:text-gray-100 mb-3 leading-relaxed font-semibold">
                 {exp.description}
               </p>
 
               <div className="mb-3 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
-                <ul className="space-y-1.5 text-gray-600 dark:text-gray-300">
+                <ul className="space-y-1.5 text-gray-900 dark:text-gray-100">
                   {visibleResponsibilities.map((resp, idx) => (
-                    <li key={idx} className="text-sm leading-relaxed flex items-start">
+                    <li key={idx} className="text-sm leading-relaxed flex items-start font-medium">
                       <span className="mr-2 text-blue-600 dark:text-blue-400 font-bold">•</span>
                       <span>{resp}</span>
                     </li>

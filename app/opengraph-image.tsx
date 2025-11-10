@@ -34,7 +34,7 @@ export default async function Image() {
           Full Stack Developer
         </div>
         <div style={{ fontSize: 32, opacity: 0.9 }}>
-          6년 2개월 경력 • Spring Boot • Vue.js • Go
+          6년+ 경력 • Spring Boot • Vue.js • Go
         </div>
       </div>
     ),
