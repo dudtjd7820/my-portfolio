@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://andrewdongminyoo.vercel.app'),
+  metadataBase: new URL('https://kim-yeongseong.vercel.app'),
   title: "김영성 | Full Stack Developer Portfolio",
   description:
     "6년 2개월 경력의 풀스택 개발자 김영성의 포트폴리오입니다. Spring Boot, Vue.js, TypeScript를 활용한 물류 시스템 개발 및 클린 아키텍처 설계 경험을 보유하고 있습니다.",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://andrewdongminyoo.vercel.app",
+    url: "https://kim-yeongseong.vercel.app",
     title: "김영성 | Full Stack Developer Portfolio",
     description:
       "6년 2개월 경력의 풀스택 개발자 김영성의 포트폴리오입니다. Spring Boot, Vue.js, TypeScript를 활용한 물류 시스템 개발 경험을 보유하고 있습니다.",
@@ -73,7 +73,7 @@ export default function RootLayout({
   return (
     <html lang="ko" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://andrewdongminyoo.vercel.app" />
+        <link rel="canonical" href="https://kim-yeongseong.vercel.app" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

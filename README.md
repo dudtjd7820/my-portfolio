@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Vercel Deploy](https://img.shields.io/badge/Vercel-Deploy-black?style=flat-square&logo=vercel)](https://my-portfolio-six-coral-80.vercel.app)
+[![Vercel Deploy](https://img.shields.io/badge/Vercel-Deploy-black?style=flat-square&logo=vercel)](https://kim-yeongseong.vercel.app)
 ![Next.js](https://img.shields.io/badge/Next.js-15.0.3-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
@@ -10,7 +10,7 @@
 
 **6년 2개월 경력의 Full Stack Developer 포트폴리오**
 
-[🌐 Live Demo](https://my-portfolio-six-coral-80.vercel.app) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 GitHub](https://github.com/kim-yeongseong)
+[🌐 Live Demo](https://kim-yeongseong.vercel.app) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 GitHub](https://github.com/kim-yeongseong)
 
 </div>
 
@@ -101,7 +101,7 @@
 
 ### Deployment
 - **Platform**: Vercel
-- **Live URL**: https://my-portfolio-six-coral-80.vercel.app
+- **Live URL**: https://kim-yeongseong.vercel.app
 - **Region**: Seoul (ICN1)
 - **SSL**: Automatic HTTPS
 - **Analytics**: Vercel Analytics
@@ -262,7 +262,7 @@ vercel
 
 - 📧 Email: [kim-yeongseong@naver.com](mailto:kim-yeongseong@naver.com)
 - 💼 GitHub: [@kim-yeongseong](https://github.com/kim-yeongseong)
-- 🌐 Portfolio: [https://my-portfolio-six-coral-80.vercel.app](https://my-portfolio-six-coral-80.vercel.app)
+- 🌐 Portfolio: [https://kim-yeongseong.vercel.app](https://kim-yeongseong.vercel.app)
 
 ---
 

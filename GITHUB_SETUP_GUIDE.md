@@ -7,7 +7,7 @@
 2. 우측 상단 ⚙️ (Settings) 버튼 클릭 (Repository 이름 옆)
 3. **About** 섹션에서 다음 입력:
    - **Description**: `6년 2개월 경력 풀스택 개발자 포트폴리오 | Spring Boot, Vue.js, TypeScript`
-   - **Website**: `https://my-portfolio-six-coral-80.vercel.app`
+   - **Website**: `https://kim-yeongseong.vercel.app`
    - **Topics** (태그):
      - `portfolio`
      - `nextjs`
@@ -38,7 +38,7 @@ GitHub 프로필에 README를 표시하려면 **자신의 username과 동일한 
 ```markdown
 # 안녕하세요! 👋 풀스택 개발자 김영성입니다
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-six-coral-80.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kim-yeongseong.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kim-yeongseong)
 
 ## 🚀 About Me
@@ -95,7 +95,7 @@ Go + Azure Database 기반 예약 시스템
 
 - 📧 Email: **your.email@example.com**
 - 💼 LinkedIn: **LinkedIn 프로필 URL**
-- 🌐 Portfolio: [https://my-portfolio-six-coral-80.vercel.app](https://my-portfolio-six-coral-80.vercel.app)
+- 🌐 Portfolio: [https://kim-yeongseong.vercel.app](https://kim-yeongseong.vercel.app)
 
 ---
 
