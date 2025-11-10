@@ -2,14 +2,15 @@
 
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-16.0.1-black?style=flat-square&logo=next.js)
+[![Vercel Deploy](https://img.shields.io/badge/Vercel-Deploy-black?style=flat-square&logo=vercel)](https://my-portfolio-six-coral-80.vercel.app)
+![Next.js](https://img.shields.io/badge/Next.js-15.0.3-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
-![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat-square&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?style=flat-square&logo=tailwind-css)
 
-**6년 + 경력의 Full Stack Developer 포트폴리오**
+**6년 2개월 경력의 Full Stack Developer 포트폴리오**
 
-[🌐 Live Demo](#) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 LinkedIn](#)
+[🌐 Live Demo](https://my-portfolio-six-coral-80.vercel.app) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 GitHub](https://github.com/kim-yeongseong)
 
 </div>
 
@@ -33,12 +34,13 @@
 
 ### ✨ 특징
 
-- 🎨 **모던한 디자인** - 다크 모드 기반의 세련된 UI/UX
+- 🎨 **모던한 디자인** - 라이트/다크 모드 지원
 - 📱 **완벽한 반응형** - 모바일, 태블릿, 데스크톱 모두 지원
-- ⚡ **빠른 성능** - Next.js 16 Turbopack 사용
-- 🔍 **SEO 최적화** - 검색 엔진 최적화
+- ⚡ **빠른 성능** - Next.js 15 App Router 사용
+- 🔍 **SEO 최적화** - 메타 태그, OG 이미지, sitemap 포함
 - ♿ **접근성** - WCAG 가이드라인 준수
 - 🎯 **TypeScript** - 타입 안정성 보장
+- ✨ **부드러운 애니메이션** - Framer Motion 활용
 
 ---
 
@@ -84,11 +86,13 @@
 ## 🛠 기술 스택
 
 ### Frontend
-- **Framework**: Next.js 16.0.1 (App Router)
+- **Framework**: Next.js 15.0.3 (App Router)
 - **Language**: TypeScript 5.x
-- **UI Library**: React 19.2.0
-- **Styling**: Tailwind CSS 4.x
+- **UI Library**: React 18.2.0
+- **Styling**: Tailwind CSS 3.3
+- **Animation**: Framer Motion 12.x
 - **Icons**: lucide-react
+- **Theme**: next-themes (Dark Mode)
 
 ### Development Tools
 - **Package Manager**: npm
@@ -96,9 +100,11 @@
 - **Version Control**: Git
 
 ### Deployment
-- **Platform**: Vercel (recommended)
-- **Domain**: Custom domain support
+- **Platform**: Vercel
+- **Live URL**: https://my-portfolio-six-coral-80.vercel.app
+- **Region**: Seoul (ICN1)
 - **SSL**: Automatic HTTPS
+- **Analytics**: Vercel Analytics
 
 ---
 
@@ -256,7 +262,7 @@ vercel
 
 - 📧 Email: [kim-yeongseong@naver.com](mailto:kim-yeongseong@naver.com)
 - 💼 GitHub: [@kim-yeongseong](https://github.com/kim-yeongseong)
-- 🌐 Portfolio: [https://kim-yeongseong.github.io](https://kim-yeongseong.github.io)
+- 🌐 Portfolio: [https://my-portfolio-six-coral-80.vercel.app](https://my-portfolio-six-coral-80.vercel.app)
 
 ---
 
