@@ -7,7 +7,7 @@
 ![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat-square&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
 
-**6년 2개월 경력의 Full Stack Developer 포트폴리오**
+**6년 + 경력의 Full Stack Developer 포트폴리오**
 
 [🌐 Live Demo](#) | [📧 Contact](mailto:kim-yeongseong@naver.com) | [💼 LinkedIn](#)
 
