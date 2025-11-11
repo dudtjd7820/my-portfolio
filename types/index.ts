@@ -6,6 +6,7 @@ export interface Profile {
   github: string;
   linkedin?: string;
   mindset?: string[];
+  image?: string;
 }
 
 export interface SkillCategory {

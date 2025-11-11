@@ -1,6 +1,7 @@
 "use client";
 
 import { Github, Mail, Target, User, Code2 } from "lucide-react";
+import Image from "next/image";
 import { profile } from "@/data/profile";
 import { primarySkills } from "@/data/skills";
 
@@ -13,7 +14,18 @@ export default function Sidebar() {
         <div className="flex justify-center mb-3">
           <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 p-1 shadow-xl">
             <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center overflow-hidden">
-              <User className="w-12 h-12 sm:w-14 sm:h-14 text-gray-400 dark:text-gray-600" />
+              {profile.image ? (
+                <Image
+                  src={profile.image}
+                  alt={profile.name}
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                  priority
+                />
+              ) : (
+                <User className="w-12 h-12 sm:w-14 sm:h-14 text-gray-400 dark:text-gray-600" />
+              )}
             </div>
           </div>
         </div>

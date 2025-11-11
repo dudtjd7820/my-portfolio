@@ -37,7 +37,8 @@
       "Bash(powershell -Command \"Get-Process node | Stop-Process -Force\")",
       "WebFetch(domain:my-portfolio-six-coral-80.vercel.app)",
       "Bash(git stash:*)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(copy \"D:\\claude\\김영성님_인터넷용.jpg\" \"D:\\workspaceKys\\my-portfolio\\public\\profile.jpg\")"
     ],
     "deny": [],
     "ask": []
